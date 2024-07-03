@@ -1,0 +1,14 @@
+.color-titulo{
+    background-color: rgb(208, 226, 43);
+    text-overflow: inherit;
+    border-radius: solid;
+    border-style: groove;
+    border-top: 2;
+    text-align: center;
+}
+.section{
+    background:color black;  /* Color de texto diseño y separacion */
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+}
