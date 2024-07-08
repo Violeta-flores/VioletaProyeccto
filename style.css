@@ -1,11 +1,9 @@
-
-
 .body {
-    background-color:rgb(245, 243, 228);
+    background-color: rgb(245, 243, 228);
 }
 
 nav {
-    background-color: hsl(256, 100%, 50%);
+    background-color: hsl(30, 182, 149);
     /* Naranja vibrante */
     padding: 10px;
     border-radius: 10px;
@@ -27,18 +25,18 @@ nav {
 
 .encabezado-nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(15, 14, 14);
     padding: 10px 20px;
     display: block;
     transition: background-color 0.3s, transform 0.3s;
     /* Transiciones para hover */
     border-radius: 5px;
-    /* Bordes redondeados para los enlaces */
+
 
 }
 
 .color-titulo {
-    background-color: rgb(76, 0, 255);
+    background-color: rgb(30, 182, 149);
     border-radius: solid;
     border-style: solid;
     border-top: 3;
@@ -60,11 +58,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(18, 156, 126);
 }
 
 .acerca-de-mi h1 {
-    font-size: 3em;
+    font-size: 4em;
     border-top-left-radius: 1px;
     color: black;
     text-align: center;
@@ -106,14 +104,16 @@ nav {
 .web-ecomerce-blog {
     /* fondo color y texto de fotos */
     text-size-adjust: 3%;
-    background-color: rgb(50, 20, 220);
+    background-color: rgb(30, 182, 149);
     column-width: 1000spx;
     list-style-type: none;
     padding: 0;
     display: flex;
 
 }
+
 form {
+    /* formulario de contacto y empresa */
     max-width: 600px;
     margin: 0 auto;
     background: white;
@@ -127,7 +127,8 @@ label {
     margin-bottom: 0.5rem;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -136,30 +137,34 @@ input, textarea {
 }
 
 button {
+    /* Boton de enviar de color rojo y negro */
     background-color: #333;
-    color: white;
+    color: rgb(212, 19, 19);
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #555;
+button:hover { /* Boton que se mueve la manita en formularios */
+    background-color: #0a0909f8;
 }
 
 footer {
-    background-color: #441896;
+    /* fondo del footer */
+    background-color: #0d8d82;
     color: white;
     text-align: center;
     padding: 1rem;
 }
 
 footer .social-links {
+    /* redes sociales  */
     margin-top: 0.5rem;
 }
 
 footer .social-links a {
+    /* redes sociales */
     color: white;
     margin: 0 1rem;
     text-decoration: none;
