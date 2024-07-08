@@ -1,14 +1,170 @@
-.color-titulo{
-    background-color: rgb(208, 226, 43);
-    text-overflow: inherit;
+
+
+.body {
+    background-color:rgb(245, 243, 228);
+}
+
+nav {
+    background-color: hsl(256, 100%, 50%);
+    /* Naranja vibrante */
+    padding: 10px;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.encabezado-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.encabezado-nav li {
+    position: relative;
+}
+
+.encabezado-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Transiciones para hover */
+    border-radius: 5px;
+    /* Bordes redondeados para los enlaces */
+
+}
+
+.color-titulo {
+    background-color: rgb(76, 0, 255);
     border-radius: solid;
-    border-style: groove;
-    border-top: 2;
+    border-style: solid;
+    border-top: 3;
     text-align: center;
 }
-.section{
-    background:color black;  /* Color de texto diseño y separacion */
+
+.section {
+    background: color black;
     font-family: Arial, Helvetica, sans-serif;
     color: blanchedalmond;
     text-align: center;
+}
+
+.foto-violeta {
+    border: 2px solid black;
+    border-radius: 1%;
+    justify-content: center;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.acerca-de-mi h1 {
+    font-size: 3em;
+    border-top-left-radius: 1px;
+    color: black;
+    text-align: center;
+}
+
+.imagen {
+    /* Color de texto diseño y separacion */
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.acerca-de-mi p {
+    font-size: 20px;
+    justify-content: center;
+    display: run-in;
+    text-align: center;
+}
+
+.web {
+    /* foto fitcaption */
+    border-radius: 30px;
+    height: 220px;
+}
+
+.ecommerce {
+    /* foto y fitcaption */
+    border-radius: 30px;
+    height: 300px;
+}
+
+.blog {
+
+    /* foto y fitcaption */
+    border-radius: 30px;
+    height: 250px;
+}
+
+.web-ecomerce-blog {
+    /* fondo color y texto de fotos */
+    text-size-adjust: 3%;
+    background-color: rgb(50, 20, 220);
+    column-width: 1000spx;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #441896;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social-links {
+    margin-top: 0.5rem;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
 }
